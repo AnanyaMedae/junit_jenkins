@@ -3,12 +3,13 @@ package com.tyit;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class CalculaterTest {
+public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        Calculater c = new Calculater();
+        Calculator c = new Calculator();
         assertEquals(10, c.add(5, 5));
     }
 }
+
 
